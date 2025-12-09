@@ -9,11 +9,59 @@ body {
 
 #page {
     background-color: #ffffff;
-    max-width: 90%;    
-    margin: 40px auto;    
+
+
+    max-width: 1400px; 
+
+    margin: 40px auto;
     padding: 40px;
     border-radius: 15px; 
 }
 
+#page p {
+    align-items: center;
+}
+
+.intro {
+    text-align: center; 
+}
+
+.intro p + p {
+    color: red;
+}
+
+.intro img {
+    width: 100%;  
+
+    
+    max-width: 1200px; 
+
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
 
 
+.intro .content {
+    max-width: 1200px; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+.intro .content p:has(+ h1) {
+    color: rgb(253, 0, 0);
+}
+
+.intro img + p {
+    max-width: 1200px; 
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #333333;
+}
+
+hr {
+    color: #333333;
+    max-width: 80%;
+    margin: 0 auto;
+}
