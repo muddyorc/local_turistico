@@ -28,6 +28,10 @@ body {
 
 .intro p + p {
     color: red;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-top: 80px;
 }
 
 .intro img {
@@ -95,5 +99,64 @@ hr {
     border-radius: 15px;
     display: block;
     margin: 20px auto;
+}
+
+
+.destinations .card {
+    max-width: 1200px;
+    margin: 50px auto; 
+    text-align: left;
+}
+
+
+.destinations .card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px; 
+}
+
+
+.destinations .card h3 {
+    font-size: 26px;      
+    margin-bottom: 15px;  
+    color: #111;          
+}
+
+
+.destinations .card p {
+    margin-bottom: 12px;   
+    line-height: 1.6;     
+}
+
+
+.destinations .card p:nth-of-type(2) {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.destinations .card ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.destinations .card li.historia {
+    color: #007bff; 
+    font-weight: bold;
+}
+
+.destinations .card li.casais {
+    color: #9b4dff;
+    font-weight: bold;
+}
+
+.destinations .card li.familias {
+    color: #ff4db8;
+    font-weight: bold;
+}
+
+
+.destinations .card li.orcamento {
+    color: #ff8c00;
+    font-weight: bold;
 }
 
