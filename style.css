@@ -65,3 +65,35 @@ hr {
     max-width: 80%;
     margin: 0 auto;
 }
+
+.destinations {
+    text-align: center;
+}
+
+
+.destinations .content p:first-of-type {
+    color: red;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-top: 80px;
+}
+
+.destinations .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.destinations .content h2 {
+    margin-bottom: 25px; 
+}
+
+.destinations img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
